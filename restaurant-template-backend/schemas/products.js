@@ -1,3 +1,4 @@
+
 export const product = new mongoose.Schema({
     productName: {type: string, required:true},
     unitsSold: {type: Number, required: true},

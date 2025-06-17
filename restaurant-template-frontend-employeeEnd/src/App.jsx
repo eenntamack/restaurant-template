@@ -12,7 +12,6 @@ import Report from '../pages/Report';
 import Tasks from '../pages/Tasks';
 
 function App() {
-
   return (
     <BrowserRouter>
       <Routes>

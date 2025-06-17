@@ -19,6 +19,9 @@ export const employee = new mongoose.Schema({
     worktime:{
         type:Date,
         required:true
+    },
+    team:{
+        type:Number
     }
 })
 

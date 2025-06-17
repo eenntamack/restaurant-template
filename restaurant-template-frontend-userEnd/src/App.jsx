@@ -19,7 +19,8 @@ function App() {
           <Route path="reservation" element={<Reservation/>}></Route>
           <Route path="order" element={<Order/>}></Route>
           <Route path="review" element={<Review/>}></Route>
-          <Route path="main" element={<Main/>}></Route>
+          <Route index element={<Main/>}></Route>
+          <Route path="main" element={<Main />} />  
         </Route>
       </Routes>
     </BrowserRouter>

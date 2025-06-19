@@ -1,4 +1,4 @@
-import { products } from '../schemas/employees'
+import { product } from '../schemas/products.js'
 import express from 'express'
 import mongoose from 'mongoose'
 import bcrypt from 'bcrypt'

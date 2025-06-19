@@ -1,4 +1,4 @@
-import { guests } from '../schemas/employees'
+import { guests } from '../schemas/guests.js'
 import express from 'express'
 import mongoose from 'mongoose'
 import bcrypt from 'bcrypt'

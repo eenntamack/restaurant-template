@@ -1,4 +1,4 @@
-import { inventory } from '../schemas/employees'
+import { inventory } from '../schemas/inventory.js'
 import express from 'express'
 import mongoose from 'mongoose'
 import bcrypt from 'bcrypt'

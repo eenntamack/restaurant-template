@@ -1,17 +1,18 @@
+import { Link } from "react-router-dom"
 export default function NavBar(){
     return(
         <nav>
             <li>
-                <Link to="/info"></Link>
+                <Link to="/employee/info">Info</Link>
             </li>
             <li>
-                <Link to="/report"></Link>
+                <Link to="/employee/reports">Reports</Link>
             </li>
             <li>
-                <Link to="/tasks"></Link>
+                <Link to="/employee/tasks">Tasks</Link>
             </li>
             <li>
-                <Link to="/logs"></Link>
+                <Link to="/employee/logs">Logs</Link>
             </li>
         </nav>
     )

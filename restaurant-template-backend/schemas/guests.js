@@ -1,3 +1,4 @@
+import mongoose from 'mongoose';
 
 export const guests = new mongoose.Schema({
     name:{type:String, required:true},
